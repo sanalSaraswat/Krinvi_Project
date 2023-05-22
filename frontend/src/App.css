@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+.vector {
+  position: absolute;
+  width: 31.25rem;
+  height: 50rem;
+}
+
+.rafiki {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  left: 20%;
+  top: 20%;
+}
+
+
+
+.line {
+  width: 100%;
+  height: 100px;
+  color: '#191919';
+}
+
+.formControlLabel {
+  color: #005642;
+  background: #EBFFF7;
+  width: 50%;
+  margin: 0 0 0.5rem;
+  padding: 2%;
+  border-radius: 10px;
+  gap: 5%;
+  display: flex;
+}
+
+button {
+  background-color: #005642;
+  color: white;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 2%;
+  width: 20%;
+}
